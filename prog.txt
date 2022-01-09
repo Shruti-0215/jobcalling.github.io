@@ -1,0 +1,11 @@
+&:before{
+            content:' ';
+            left:4em;
+            position: absolute;
+            width: 60px;
+            height: 60px;
+            background-image: url('..bullet.png');
+            background-size: contain;
+            margin-right: .5em;
+
+        }
