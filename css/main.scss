@@ -174,7 +174,7 @@ h2{
 
     ul.features-list{
         display: block;
-        margin-left: -2em;
+        margin-left: 2em;
 
         li{
             font-size:1.5em;
@@ -206,7 +206,7 @@ h2{
     }
 }
 
-@media only screen and (min-width:1020px){
+@media only screen and (min-width:1080px){
     .features-section{
 
         &:before{
@@ -223,11 +223,11 @@ h2{
         &:after{
             content:'';
             position: absolute;
-            width: 15px;
-            height:15em;
-            background: #f5eded;
-            left:8.5em;
-            top:2em;
+            width: 12%;
+            height:21%;
+            background: url(003.png) no-repeat;
+            left:5em;
+            top:1em;
         }
     }
 }
